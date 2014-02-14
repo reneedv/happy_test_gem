@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'happy_test_gem'
+
+name = ARGV.first || "Renee"
+
+puts HappyPerson.new(name).mood
